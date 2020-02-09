@@ -1,0 +1,11 @@
+"*":
+  core:
+    autoHideMenuBar: true
+    closeDeletedFileTabs: true
+    telemetryConsent: "no"
+    uriHandlerRegistration: "always"
+  editor:
+    fontSize: 16
+    showInvisibles: true
+  welcome:
+    showOnStartup: false

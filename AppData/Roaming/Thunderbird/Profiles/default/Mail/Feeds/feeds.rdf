@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:NS1="http://purl.org/rss/1.0/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:fz="urn:forumzilla:"
+         xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="urn:forumzilla:root">
+    <fz:feeds RDF:resource="rdf:#$q6toe1"/>
+  </RDF:Description>
+  <fz:feed RDF:about="https://itsfoss.com/feed/"
+                   fz:quickMode="false"
+                   dc:title="It's FOSS"
+                   NS1:link="https://itsfoss.com"
+                   dc:lastModified="Sun, 09 Feb 2020 10:39:28 GMT"
+                   fz:options="{&quot;version&quot;:2,&quot;updates&quot;:{&quot;enabled&quot;:true,&quot;updateMinutes&quot;:100,&quot;updateUnits&quot;:&quot;min&quot;,&quot;lastUpdateTime&quot;:1581296609168,&quot;lastDownloadTime&quot;:null,&quot;updatePeriod&quot;:&quot;hourly&quot;,&quot;updateFrequency&quot;:&quot;1&quot;,&quot;updateBase&quot;:&quot;&quot;},&quot;category&quot;:{&quot;enabled&quot;:false,&quot;prefixEnabled&quot;:false,&quot;prefix&quot;:&quot;&quot;}}"
+                   dc:identifier="https://itsfoss.com/feed/">
+    <fz:destFolder RDF:resource="mailbox://nobody@Feeds/It%27s%20FOSS"/>
+  </fz:feed>
+  <RDF:Seq RDF:about="rdf:#$q6toe1">
+    <RDF:li RDF:resource="https://itsfoss.com/feed/"/>
+  </RDF:Seq>
+</RDF:RDF>

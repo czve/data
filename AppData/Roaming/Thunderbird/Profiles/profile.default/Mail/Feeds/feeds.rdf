@@ -4,19 +4,68 @@
          xmlns:fz="urn:forumzilla:"
          xmlns:NC="http://home.netscape.com/NC-rdf#"
          xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Seq RDF:about="rdf:#$q6toe1">
+    <RDF:li RDF:resource="https://itsfoss.com/feed/"/>
+    <RDF:li RDF:resource="https://www.sciencenews.org/feed"/>
+    <RDF:li RDF:resource="https://planet.gnome.org/atom.xml"/>
+    <RDF:li RDF:resource="https://feeds.feedburner.com/d0od"/>
+    <RDF:li RDF:resource="https://www.fosslinux.com/feed"/>
+    <RDF:li RDF:resource="https://linuxfr.org/liens.atom"/>
+  </RDF:Seq>
+  <fz:feed RDF:about="https://www.fosslinux.com/feed"
+                   fz:quickMode="false"
+                   dc:title="FOSS Linux"
+                   NS1:link="https://www.fosslinux.com"
+                   fz:options="{&quot;version&quot;:2,&quot;updates&quot;:{&quot;enabled&quot;:true,&quot;updateMinutes&quot;:100,&quot;updateUnits&quot;:&quot;min&quot;,&quot;lastUpdateTime&quot;:1582331044734,&quot;lastDownloadTime&quot;:null,&quot;updatePeriod&quot;:&quot;hourly&quot;,&quot;updateFrequency&quot;:&quot;1&quot;,&quot;updateBase&quot;:&quot;&quot;},&quot;category&quot;:{&quot;enabled&quot;:false,&quot;prefixEnabled&quot;:false,&quot;prefix&quot;:&quot;&quot;}}"
+                   dc:identifier="https://www.fosslinux.com/feed">
+    <fz:destFolder RDF:resource="mailbox://nobody@Feeds/FOSS%20Linux"/>
+  </fz:feed>
+  <fz:feed RDF:about="https://planet.gnome.org/atom.xml"
+                   fz:quickMode="false"
+                   dc:title="Planet GNOME"
+                   NS1:link="https://planet.gnome.org/atom.xml"
+                   dc:lastModified="Sat, 22 Feb 2020 00:04:51 GMT"
+                   fz:options="{&quot;version&quot;:2,&quot;updates&quot;:{&quot;enabled&quot;:true,&quot;updateMinutes&quot;:100,&quot;updateUnits&quot;:&quot;min&quot;,&quot;lastUpdateTime&quot;:1582330961237,&quot;lastDownloadTime&quot;:null,&quot;updatePeriod&quot;:&quot;&quot;,&quot;updateFrequency&quot;:&quot;&quot;,&quot;updateBase&quot;:&quot;&quot;},&quot;category&quot;:{&quot;enabled&quot;:false,&quot;prefixEnabled&quot;:false,&quot;prefix&quot;:&quot;&quot;}}"
+                   dc:identifier="https://planet.gnome.org/atom.xml">
+    <fz:destFolder RDF:resource="mailbox://nobody@Feeds/Planet%20GNOME"/>
+  </fz:feed>
+  <fz:feed RDF:about="https://itsfoss.com/feed/"
+                   fz:quickMode="false"
+                   dc:identifier="https://itsfoss.com/feed/"
+                   dc:title="It's FOSS"
+                   NS1:link="https://itsfoss.com"
+                   dc:lastModified="Fri, 21 Feb 2020 14:01:58 GMT"
+                   fz:options="{&quot;version&quot;:2,&quot;updates&quot;:{&quot;enabled&quot;:true,&quot;updateMinutes&quot;:100,&quot;updateUnits&quot;:&quot;min&quot;,&quot;lastUpdateTime&quot;:1582330666926,&quot;lastDownloadTime&quot;:1582319598330,&quot;updatePeriod&quot;:&quot;hourly&quot;,&quot;updateFrequency&quot;:&quot;1&quot;,&quot;updateBase&quot;:&quot;&quot;},&quot;category&quot;:{&quot;enabled&quot;:false,&quot;prefixEnabled&quot;:false,&quot;prefix&quot;:&quot;&quot;}}">
+    <fz:destFolder RDF:resource="mailbox://nobody@Feeds/It%27s%20FOSS"/>
+  </fz:feed>
   <RDF:Description RDF:about="urn:forumzilla:root">
     <fz:feeds RDF:resource="rdf:#$q6toe1"/>
   </RDF:Description>
-  <fz:feed RDF:about="https://itsfoss.com/feed/"
+  <fz:feed RDF:about="https://linuxfr.org/liens.atom"
                    fz:quickMode="false"
-                   dc:title="It's FOSS"
-                   NS1:link="https://itsfoss.com"
-                   dc:lastModified="Sun, 09 Feb 2020 10:39:28 GMT"
-                   fz:options="{&quot;version&quot;:2,&quot;updates&quot;:{&quot;enabled&quot;:true,&quot;updateMinutes&quot;:100,&quot;updateUnits&quot;:&quot;min&quot;,&quot;lastUpdateTime&quot;:1581296609168,&quot;lastDownloadTime&quot;:null,&quot;updatePeriod&quot;:&quot;hourly&quot;,&quot;updateFrequency&quot;:&quot;1&quot;,&quot;updateBase&quot;:&quot;&quot;},&quot;category&quot;:{&quot;enabled&quot;:false,&quot;prefixEnabled&quot;:false,&quot;prefix&quot;:&quot;&quot;}}"
-                   dc:identifier="https://itsfoss.com/feed/">
-    <fz:destFolder RDF:resource="mailbox://nobody@Feeds/It%27s%20FOSS"/>
+                   dc:title="LinuxFr.org : les liens"
+                   NS1:link="https://linuxfr.org/liens.atom"
+                   dc:lastModified="Fri, 21 Feb 2020 17:40:45 GMT"
+                   fz:options="{&quot;version&quot;:2,&quot;updates&quot;:{&quot;enabled&quot;:true,&quot;updateMinutes&quot;:100,&quot;updateUnits&quot;:&quot;min&quot;,&quot;lastUpdateTime&quot;:1582331092012,&quot;lastDownloadTime&quot;:null,&quot;updatePeriod&quot;:&quot;&quot;,&quot;updateFrequency&quot;:&quot;&quot;,&quot;updateBase&quot;:&quot;&quot;},&quot;category&quot;:{&quot;enabled&quot;:false,&quot;prefixEnabled&quot;:false,&quot;prefix&quot;:&quot;&quot;}}"
+                   dc:identifier="https://linuxfr.org/liens.atom">
+    <fz:destFolder RDF:resource="mailbox://nobody@Feeds/LinuxFrorg%20%20les%20liens"/>
   </fz:feed>
-  <RDF:Seq RDF:about="rdf:#$q6toe1">
-    <RDF:li RDF:resource="https://itsfoss.com/feed/"/>
-  </RDF:Seq>
+  <fz:feed RDF:about="https://www.sciencenews.org/feed"
+                   fz:quickMode="false"
+                   dc:title="Science News"
+                   NS1:link="https://www.sciencenews.org"
+                   dc:lastModified="Fri, 21 Feb 2020 22:26:33 GMT"
+                   fz:options="{&quot;version&quot;:2,&quot;updates&quot;:{&quot;enabled&quot;:true,&quot;updateMinutes&quot;:100,&quot;updateUnits&quot;:&quot;min&quot;,&quot;lastUpdateTime&quot;:1582330897762,&quot;lastDownloadTime&quot;:null,&quot;updatePeriod&quot;:&quot;hourly&quot;,&quot;updateFrequency&quot;:&quot;1&quot;,&quot;updateBase&quot;:&quot;&quot;},&quot;category&quot;:{&quot;enabled&quot;:false,&quot;prefixEnabled&quot;:false,&quot;prefix&quot;:&quot;&quot;}}"
+                   dc:identifier="https://www.sciencenews.org/feed">
+    <fz:destFolder RDF:resource="mailbox://nobody@Feeds/Science%20News"/>
+  </fz:feed>
+  <fz:feed RDF:about="https://feeds.feedburner.com/d0od"
+                   fz:quickMode="false"
+                   dc:title="OMG! Ubuntu!"
+                   NS1:link="https://www.omgubuntu.co.uk"
+                   dc:lastModified="Sat, 22 Feb 2020 00:20:45 GMT"
+                   fz:options="{&quot;version&quot;:2,&quot;updates&quot;:{&quot;enabled&quot;:true,&quot;updateMinutes&quot;:100,&quot;updateUnits&quot;:&quot;min&quot;,&quot;lastUpdateTime&quot;:1582331012648,&quot;lastDownloadTime&quot;:null,&quot;updatePeriod&quot;:&quot;hourly&quot;,&quot;updateFrequency&quot;:&quot;1&quot;,&quot;updateBase&quot;:&quot;&quot;},&quot;category&quot;:{&quot;enabled&quot;:false,&quot;prefixEnabled&quot;:false,&quot;prefix&quot;:&quot;&quot;}}"
+                   dc:identifier="https://feeds.feedburner.com/d0od">
+    <fz:destFolder RDF:resource="mailbox://nobody@Feeds/OMG%21%20Ubuntu%21"/>
+  </fz:feed>
 </RDF:RDF>
